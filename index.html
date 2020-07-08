@@ -172,7 +172,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p>
+        <h2 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a>部署到github</h2><p>1.首先在blog文件下安装一个git部署插件<br> cnpm install –save hexo-deployer-git</p>
+<p>2.修改config.yml文件<br> notepad config.yml</p>
+<h1 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h1><h2 id="Docs-https-hexo-io-docs-deployment-html"><a href="#Docs-https-hexo-io-docs-deployment-html" class="headerlink" title="Docs: https://hexo.io/docs/deployment.html"></a>Docs: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">https://hexo.io/docs/deployment.html</a></h2><p>deploy:<br>  type: ‘git’<br>  repo: <a href="https://github.com/mingchenwang1997/mingchenwang1997.github.io.git" target="_blank" rel="noopener">https://github.com/mingchenwang1997/mingchenwang1997.github.io.git</a><br>  branch: master</p>
+<ol start="3">
+<li>部署到远端<br>hexo d</li>
+</ol>
 <hr>
 <h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容</p>
 <hr>
@@ -240,7 +245,38 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h2 id="cmd命令随笔"><a href="#cmd命令随笔" class="headerlink" title="cmd命令随笔"></a>cmd命令随笔</h2><ol>
+<li><p>cd blog       进入目录</p>
+</li>
+<li><p>chdir           查看当前文件下的路径</p>
+</li>
+<li><p>dir               查看当前文件下的目录</p>
+</li>
+<li><p>hexo server   预览博客</p>
+</li>
+<li><p>hexo n “我的博客文章标题”     创建新的博客文件</p>
+</li>
+<li><p>cd source_posts\           进入目标文件</p>
+</li>
+<li><p>dir /Q          查看当前文件下的目录</p>
+</li>
+<li><p>notepad 我的第二篇博客文章.md                  编辑博客文章内容</p>
+</li>
+<li><p>cd ../..         返回两级</p>
+</li>
+<li><p>hexo clean    清理</p>
+</li>
+<li><p>hexo generate    生成</p>
+</li>
+</ol>
+<p>12 hexo s          预览        </p>
+<ol start="13">
+<li><p>部署到远端之前先敲<br>  git config –global user.email “xxx”<br>  git config –global user.name “xxx”</p>
+</li>
+<li><p>hexo d          上传/部署</p>
+</li>
+</ol>
+
       
 
       
